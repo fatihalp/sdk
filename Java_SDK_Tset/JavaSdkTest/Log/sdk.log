@@ -1,0 +1,22 @@
+2025-01-06 00:26:28.086  INFO 8547 --- [main] sdk.server.SdkApplication                : Starting SdkApplication using Java 11.0.22 on Fatihs-MacBook-Air.local with PID 8547 (/Users/fatihalpyigit/Downloads/SDK_V3.1_2024.8.22/Java_SDK_Tset/JavaSdkTest/sdk-test.jar started by fatihalpyigit in /Users/fatihalpyigit/Downloads/SDK_V3.1_2024.8.22/Java_SDK_Tset/JavaSdkTest)
+2025-01-06 00:26:28.090  INFO 8547 --- [main] sdk.server.SdkApplication                : No active profile set, falling back to 1 default profile: "default"
+2025-01-06 00:26:28.570  INFO 8547 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-01-06 00:26:28.576  INFO 8547 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-06 00:26:28.576  INFO 8547 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-06 00:26:28.614  INFO 8547 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-06 00:26:28.615  INFO 8547 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 495 ms
+2025-01-06 00:26:28.789  INFO 8547 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53123 (http) with context path ''
+2025-01-06 00:26:28.795  INFO 8547 --- [main] sdk.server.SdkApplication                : Started SdkApplication in 0.977 seconds (JVM running for 1.229)
+2025-01-06 00:26:29.073  WARN 8547 --- [main] cn.huidu.sdk.server.SdkServer            : start sdk Server
+2025-01-06 00:26:55.070  WARN 8547 --- [Thread-1] cn.huidu.sdk.server.SdkServer            : stop sdk Server
+2025-01-06 00:27:00.330  INFO 8567 --- [main] sdk.server.SdkApplication                : Starting SdkApplication using Java 11.0.22 on Fatihs-MacBook-Air.local with PID 8567 (/Users/fatihalpyigit/Downloads/SDK_V3.1_2024.8.22/Java_SDK_Tset/JavaSdkTest/sdk-test.jar started by fatihalpyigit in /Users/fatihalpyigit/Downloads/SDK_V3.1_2024.8.22/Java_SDK_Tset/JavaSdkTest)
+2025-01-06 00:27:00.332  INFO 8567 --- [main] sdk.server.SdkApplication                : No active profile set, falling back to 1 default profile: "default"
+2025-01-06 00:27:01.015  INFO 8567 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-01-06 00:27:01.021  INFO 8567 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-06 00:27:01.021  INFO 8567 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-06 00:27:01.067  INFO 8567 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-06 00:27:01.067  INFO 8567 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 688 ms
+2025-01-06 00:27:01.306  INFO 8567 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53940 (http) with context path ''
+2025-01-06 00:27:01.315  INFO 8567 --- [main] sdk.server.SdkApplication                : Started SdkApplication in 1.343 seconds (JVM running for 1.565)
+2025-01-06 00:27:01.552  WARN 8567 --- [main] cn.huidu.sdk.server.SdkServer            : start sdk Server
+2025-01-06 00:35:33.840  WARN 8567 --- [Thread-1] cn.huidu.sdk.server.SdkServer            : stop sdk Server

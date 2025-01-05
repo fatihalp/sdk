@@ -1,0 +1,1336 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>错误码定义 · SDK3.0文档</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="数据包命令值定义.html" />
+    
+    
+    <link rel="prev" href="基本类型定义.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    SDK3.0文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../part/Protocol.html">
+            
+                <a href="../../part/Protocol.html">
+            
+                    
+                    协议
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="基本类型定义.html">
+            
+                <a href="基本类型定义.html">
+            
+                    
+                    基本类型定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2" data-path="错误码定义.html">
+            
+                <a href="错误码定义.html">
+            
+                    
+                    错误码定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="数据包命令值定义.html">
+            
+                <a href="数据包命令值定义.html">
+            
+                    
+                    数据包命令值定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="协议数据包结构格式.html">
+            
+                <a href="协议数据包结构格式.html">
+            
+                    
+                    协议数据包结构格式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="SDK协议流程.html">
+            
+                <a href="SDK协议流程.html">
+            
+                    
+                    SDK协议流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="SDK版本协商.html">
+            
+                <a href="SDK版本协商.html">
+            
+                    
+                    SDK版本协商
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="SDK发送文件流程.html">
+            
+                <a href="SDK发送文件流程.html">
+            
+                    
+                    SDK发送文件流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../part/ProgramDefine.html">
+            
+                <a href="../../part/ProgramDefine.html">
+            
+                    
+                    节目结构定义
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../ProgramDefine/节目单数据.html">
+            
+                <a href="../ProgramDefine/节目单数据.html">
+            
+                    
+                    节目单数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../ProgramDefine/节目单标签属性.html">
+            
+                <a href="../ProgramDefine/节目单标签属性.html">
+            
+                    
+                    节目单标签属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../ProgramDefine/节目节点属性.html">
+            
+                <a href="../ProgramDefine/节目节点属性.html">
+            
+                    
+                    节目节点属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../ProgramDefine/功能节点属性.html">
+            
+                <a href="../ProgramDefine/功能节点属性.html">
+            
+                    
+                    功能节点属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../part/BootLogo.html">
+            
+                <a href="../../part/BootLogo.html">
+            
+                    
+                    开机画面相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../BootLogo/BootLogo开机画面.html">
+            
+                <a href="../BootLogo/BootLogo开机画面.html">
+            
+                    
+                    关于设置获取开机画面
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../part/Ethernet.html">
+            
+                <a href="../../part/Ethernet.html">
+            
+                    
+                    网络相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Ethernet/获取网络信息.html">
+            
+                <a href="../Ethernet/获取网络信息.html">
+            
+                    
+                    获取网络信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Ethernet/设置网络信息.html">
+            
+                <a href="../Ethernet/设置网络信息.html">
+            
+                    
+                    设置网络信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../Ethernet/测试网络.html">
+            
+                <a href="../Ethernet/测试网络.html">
+            
+                    
+                    测试网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../part/Font.html">
+            
+                <a href="../../part/Font.html">
+            
+                    
+                    字体相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../Font/获取或重加载字体.html">
+            
+                <a href="../Font/获取或重加载字体.html">
+            
+                    
+                    获取或重加载字体
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../part/General.html">
+            
+                <a href="../../part/General.html">
+            
+                    
+                    通用功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../General/获取设备相关信息.html">
+            
+                <a href="../General/获取设备相关信息.html">
+            
+                    
+                    获取设备相关信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../General/设置设备相关信息.html">
+            
+                <a href="../General/设置设备相关信息.html">
+            
+                    
+                    设置设备相关信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../General/获取或设置系统音量.html">
+            
+                <a href="../General/获取或设置系统音量.html">
+            
+                    
+                    配置系统音量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../General/获取和设置Tcp服务器.html">
+            
+                <a href="../General/获取和设置Tcp服务器.html">
+            
+                    
+                    配置设备连接SDK服务器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../General/重启设备.html">
+            
+                <a href="../General/重启设备.html">
+            
+                    
+                    重启设备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../General/关于配置Socket信息.html">
+            
+                <a href="../General/关于配置Socket信息.html">
+            
+                    
+                    配置Socket信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../part/HwSet.html">
+            
+                <a href="../../part/HwSet.html">
+            
+                    
+                    HwSet相关功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../part/License.html">
+            
+                <a href="../../part/License.html">
+            
+                    
+                    许可证相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../License/许可证信息.html">
+            
+                <a href="../License/许可证信息.html">
+            
+                    
+                    许可证信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../../part/Light.html">
+            
+                <a href="../../part/Light.html">
+            
+                    
+                    亮度相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../Light/亮度设置.html">
+            
+                <a href="../Light/亮度设置.html">
+            
+                    
+                    亮度设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../../part/MediaFile.html">
+            
+                <a href="../../part/MediaFile.html">
+            
+                    
+                    媒体文件相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../MediaFile/DeleteFiles从设备删除文件.html">
+            
+                <a href="../MediaFile/DeleteFiles从设备删除文件.html">
+            
+                    
+                    设备删除文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../MediaFile/AddFiles添加文件到设备.html">
+            
+                <a href="../MediaFile/AddFiles添加文件到设备.html">
+            
+                    
+                    设备下载文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="../MediaFile/GetFiles获取设备媒体文件信息.html">
+            
+                <a href="../MediaFile/GetFiles获取设备媒体文件信息.html">
+            
+                    
+                    获取设备文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" data-path="../MediaFile/获取临时内存文件大小.html">
+            
+                <a href="../MediaFile/获取临时内存文件大小.html">
+            
+                    
+                    获取临时内存文件大小
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../../part/OFFOrONSpeed.html">
+            
+                <a href="../../part/OFFOrONSpeed.html">
+            
+                    
+                    开关屏配置相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../OFFOrONSpeed/配置开关屏速度.html">
+            
+                <a href="../OFFOrONSpeed/配置开关屏速度.html">
+            
+                    
+                    配置开关屏速度
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../../part/Other.html">
+            
+                <a href="../../part/Other.html">
+            
+                    
+                    其他相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../Other/GPS信息上报.html">
+            
+                <a href="../Other/GPS信息上报.html">
+            
+                    
+                    GPS信息上报
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" data-path="../Other/多屏同步标志.html">
+            
+                <a href="../Other/多屏同步标志.html">
+            
+                    
+                    多屏同步标志
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.3" data-path="../Other/节目播放统计标志.html">
+            
+                <a href="../Other/节目播放统计标志.html">
+            
+                    
+                    节目播放统计标志
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.4" data-path="../Other/节目播放统计文件名.html">
+            
+                <a href="../Other/节目播放统计文件名.html">
+            
+                    
+                    节目播放统计文件名
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../../part/Program.html">
+            
+                <a href="../../part/Program.html">
+            
+                    
+                    节目相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" data-path="../Program/节目编辑.html">
+            
+                <a href="../Program/节目编辑.html">
+            
+                    
+                    节目编辑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2" data-path="../Program/RealTimeUpdate区域实时更新SDK.html">
+            
+                <a href="../Program/RealTimeUpdate区域实时更新SDK.html">
+            
+                    
+                    RealTimeUpdate区域实时更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.3" data-path="../Program/ScreenRotation屏幕旋转.html">
+            
+                <a href="../Program/ScreenRotation屏幕旋转.html">
+            
+                    
+                    ScreenRotation屏幕旋转
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.4" data-path="../Program/SwitchProgram节目切换.html">
+            
+                <a href="../Program/SwitchProgram节目切换.html">
+            
+                    
+                    SwitchProgram节目切换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.5" data-path="../Program/获取当前播放节目的GUID.html">
+            
+                <a href="../Program/获取当前播放节目的GUID.html">
+            
+                    
+                    获取当前播放节目的GUID
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../../part/ScreenFunction.html">
+            
+                <a href="../../part/ScreenFunction.html">
+            
+                    
+                    屏幕相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.15.1" data-path="../ScreenFunction/GetScreenshot屏幕截图.html">
+            
+                <a href="../ScreenFunction/GetScreenshot屏幕截图.html">
+            
+                    
+                    屏幕截图
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../../part/ScreenOnoff.html">
+            
+                <a href="../../part/ScreenOnoff.html">
+            
+                    
+                    屏幕开关相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.16.1" data-path="../ScreenOnoff/开关屏信息.html">
+            
+                <a href="../ScreenOnoff/开关屏信息.html">
+            
+                    
+                    开关屏信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.2" data-path="../ScreenOnoff/设置开关屏.html">
+            
+                <a href="../ScreenOnoff/设置开关屏.html">
+            
+                    
+                    设置开关屏
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../../part/Sensor.html">
+            
+                <a href="../../part/Sensor.html">
+            
+                    
+                    传感器相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.17.1" data-path="../Sensor/485透传设置-白.html">
+            
+                <a href="../Sensor/485透传设置-白.html">
+            
+                    
+                    串口透传设置(白)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.2" data-path="../Sensor/传感器功能-白.html">
+            
+                <a href="../Sensor/传感器功能-白.html">
+            
+                    
+                    获取传感器信息(白)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.3" data-path="../Sensor/串口SDK.html">
+            
+                <a href="../Sensor/串口SDK.html">
+            
+                    
+                    串口SDK
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../../part/Time.html">
+            
+                <a href="../../part/Time.html">
+            
+                    
+                    时间相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.18.1" data-path="../Time/时间校正功能.html">
+            
+                <a href="../Time/时间校正功能.html">
+            
+                    
+                    时间校正功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="../../part/Upgrade.html">
+            
+                <a href="../../part/Upgrade.html">
+            
+                    
+                    升级相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.19.1" data-path="../Upgrade/SDK固件升级.html">
+            
+                <a href="../Upgrade/SDK固件升级.html">
+            
+                    
+                    SDK固件升级
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="../../part/UsbDevice.html">
+            
+                <a href="../../part/UsbDevice.html">
+            
+                    
+                    U盘相关功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.20.1" data-path="../UsbDevice/检查U盘接入状态.html">
+            
+                <a href="../UsbDevice/检查U盘接入状态.html">
+            
+                    
+                    检查U盘接入状态
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20.2" data-path="../UsbDevice/U盘功能配置.html">
+            
+                <a href="../UsbDevice/U盘功能配置.html">
+            
+                    
+                    U盘功能配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="../../part/Expand.html">
+            
+                <a href="../../part/Expand.html">
+            
+                    
+                    扩展
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.21.1" data-path="../Expand/自定义绘制模拟时钟属性.html">
+            
+                <a href="../Expand/自定义绘制模拟时钟属性.html">
+            
+                    
+                    自定义绘制模拟时钟属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="../../常见问题解决/Issue.html">
+            
+                <a href="../../常见问题解决/Issue.html">
+            
+                    
+                    常见问题
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.22.1" data-path="../../常见问题解决/document/GetProgram获取的数据用于节目数据时常出现的问题.html">
+            
+                <a href="../../常见问题解决/document/GetProgram获取的数据用于节目数据时常出现的问题.html">
+            
+                    
+                    GetProgram获取的数据用于节目数据时常出现的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22.2" data-path="../../常见问题解决/document/HDPlayer节目和SDK节目的区别.html">
+            
+                <a href="../../常见问题解决/document/HDPlayer节目和SDK节目的区别.html">
+            
+                    
+                    HDPlayer节目和SDK节目的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >错误码定义</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x9519;&#x8BEF;&#x7801;&#x5B9A;&#x4E49;">&#x9519;&#x8BEF;&#x7801;&#x5B9A;&#x4E49;</h1>
+<p>&#x9519;&#x8BEF;&#x7801;&#x8FD4;&#x56DE;&#x683C;&#x5F0F;&#x5982;&#x4E0B;:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x5B57;&#x6BB5;</th>
+<th style="text-align:center">&#x547D;&#x4EE4;&#x5305;&#x957F;&#x5EA6;(Len)</th>
+<th style="text-align:center">&#x547D;&#x4EE4;(Cmd)</th>
+<th style="text-align:center">&#x9519;&#x8BEF;&#x7801;(Code)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">&#x5B57;&#x8282;&#x6570;</td>
+<td style="text-align:center">2&#x5B57;&#x8282;</td>
+<td style="text-align:center">2&#x5B57;&#x8282;</td>
+<td style="text-align:center">2&#x5B57;&#x8282;</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x53D6;&#x503C;</td>
+<td style="text-align:center">6</td>
+<td style="text-align:center"><a href="&#x6570;&#x636E;&#x5305;&#x547D;&#x4EE4;&#x503C;&#x5B9A;&#x4E49;.html"><strong>kErrorAnswer</strong></a></td>
+<td style="text-align:center">HErrorCode</td>
+</tr>
+</tbody>
+</table>
+<h2 id="herrorcode&#x5B9A;&#x4E49;">HErrorCode&#x5B9A;&#x4E49;</h2>
+<p>&#x6570;&#x503C;&#x4ECE;0&#x5F00;&#x59CB;&#x4F9D;&#x6B21;&#x9012;&#x589E;, &#x5982;&#x6B63;&#x5E38;&#x72B6;&#x6001;0, &#x4E0B;&#x4E00;&#x4E2A;&#x5199;&#x6587;&#x4EF6;&#x5B8C;&#x6210;1, &#x6D41;&#x7A0B;&#x9519;&#x8BEF;2</p>
+<pre><code class="lang-cpp"><span class="hljs-keyword">enum</span> HErrorCode
+{
+    kSuccess = <span class="hljs-number">0</span>,           <span class="hljs-comment">///&lt; &#x6B63;&#x5E38;&#x72B6;&#x6001;</span>
+    kWriteFinish,           <span class="hljs-comment">///&lt; &#x5199;&#x6587;&#x4EF6;&#x5B8C;&#x6210;</span>
+    kProcessError,          <span class="hljs-comment">///&lt; &#x6D41;&#x7A0B;&#x9519;&#x8BEF;</span>
+    kVersionTooLow,         <span class="hljs-comment">///&lt; &#x7248;&#x672C;&#x8FC7;&#x4F4E;</span>
+    kDeviceOccupa,          <span class="hljs-comment">///&lt; &#x8BBE;&#x5907;&#x88AB;&#x5360;&#x7528;</span>
+    kFileOccupa,            <span class="hljs-comment">///&lt; &#x6587;&#x4EF6;&#x88AB;&#x5360;&#x7528;</span>
+    kReadFileExcessive,     <span class="hljs-comment">///&lt; &#x56DE;&#x8BFB;&#x6587;&#x4EF6;&#x7528;&#x6237;&#x8FC7;&#x591A;</span>
+    kInvalidPacketLen,      <span class="hljs-comment">///&lt; &#x6570;&#x636E;&#x5305;&#x957F;&#x5EA6;&#x9519;&#x8BEF;</span>
+    kInvalidParam,          <span class="hljs-comment">///&lt; &#x65E0;&#x6548;&#x7684;&#x53C2;&#x6570;</span>
+    kNotSpaceToSave,        <span class="hljs-comment">///&lt; &#x5B58;&#x50A8;&#x7A7A;&#x95F4;&#x4E0D;&#x591F;</span>
+    kCreateFileFailed,      <span class="hljs-comment">///&lt; &#x521B;&#x5EFA;&#x6587;&#x4EF6;&#x5931;&#x8D25;</span>
+    kWriteFileFailed,       <span class="hljs-comment">///&lt; &#x5199;&#x6587;&#x4EF6;&#x5931;&#x8D25;</span>
+    kReadFileFailed,        <span class="hljs-comment">///&lt; &#x8BFB;&#x6587;&#x4EF6;&#x5931;&#x8D25;</span>
+    kInvalidFileData,       <span class="hljs-comment">///&lt; &#x65E0;&#x6548;&#x7684;&#x6587;&#x4EF6;&#x6570;&#x636E;</span>
+    kFileContentError,      <span class="hljs-comment">///&lt; &#x6587;&#x4EF6;&#x5185;&#x5BB9;&#x51FA;&#x9519;</span>
+    kOpenFileFailed,        <span class="hljs-comment">///&lt; &#x6253;&#x5F00;&#x6587;&#x4EF6;&#x5931;&#x8D25;</span>
+    kSeekFileFailed,        <span class="hljs-comment">///&lt; &#x5B9A;&#x4F4D;&#x6587;&#x4EF6;&#x5931;&#x8D25;</span>
+    kRenameFailed,          <span class="hljs-comment">///&lt; &#x91CD;&#x547D;&#x540D;&#x5931;&#x8D25;</span>
+    kFileNotFound,          <span class="hljs-comment">///&lt; &#x6587;&#x4EF6;&#x672A;&#x627E;&#x5230;</span>
+    kFileNotFinish,         <span class="hljs-comment">///&lt; &#x6587;&#x4EF6;&#x672A;&#x63A5;&#x6536;&#x5B8C;&#x6210;</span>
+    kXmlCmdTooLong,         <span class="hljs-comment">///&lt; xml&#x547D;&#x4EE4;&#x8FC7;&#x957F;</span>
+    kInvalidXmlIndex,       <span class="hljs-comment">///&lt; &#x65E0;&#x6548;&#x7684;xml&#x547D;&#x4EE4;&#x7D22;&#x5F15;&#x503C;</span>
+    kParseXmlFailed,        <span class="hljs-comment">///&lt; &#x89E3;&#x6790;xml&#x51FA;&#x9519;</span>
+    kInvalidMethod,         <span class="hljs-comment">///&lt; &#x65E0;&#x6548;&#x7684;&#x65B9;&#x6CD5;&#x540D;</span>
+    kMemoryFailed,          <span class="hljs-comment">///&lt; &#x5185;&#x5B58;&#x9519;&#x8BEF;</span>
+    kSystemError,           <span class="hljs-comment">///&lt; &#x7CFB;&#x7EDF;&#x9519;&#x8BEF;</span>
+    kUnsupportVideo,        <span class="hljs-comment">///&lt; &#x4E0D;&#x652F;&#x6301;&#x7684;&#x89C6;&#x9891;</span>
+    kNotMediaFile,          <span class="hljs-comment">///&lt; &#x4E0D;&#x662F;&#x591A;&#x5A92;&#x4F53;&#x6587;&#x4EF6;</span>
+    kParseVideoFailed,      <span class="hljs-comment">///&lt; &#x89E3;&#x6790;&#x89C6;&#x9891;&#x6587;&#x4EF6;&#x5931;&#x8D25;</span>
+    kUnsupportFrameRate,    <span class="hljs-comment">///&lt; &#x4E0D;&#x652F;&#x6301;&#x7684;&#x6CE2;&#x7279;&#x7387;</span>
+    kUnsupportResolution,   <span class="hljs-comment">///&lt; &#x4E0D;&#x652F;&#x6301;&#x7684;&#x5206;&#x8FA8;&#x7387;(&#x89C6;&#x9891;)</span>
+    kUnsupportFormat,       <span class="hljs-comment">///&lt; &#x4E0D;&#x652F;&#x6301;&#x7684;&#x683C;&#x5F0F;(&#x89C6;&#x9891;)</span>
+    kUnsupportDuration,     <span class="hljs-comment">///&lt; &#x4E0D;&#x652F;&#x6301;&#x7684;&#x65F6;&#x95F4;&#x957F;&#x5EA6;(&#x89C6;&#x9891;)</span>
+    kDownloadFileFailed,    <span class="hljs-comment">///&lt; &#x4E0B;&#x8F7D;&#x6587;&#x4EF6;&#x5931;&#x8D25;</span>
+    kDownloadingFile,       <span class="hljs-comment">///&lt; &#x4E0B;&#x8F7D;&#x6587;&#x4EF6;&#x4E2D;(SDK3.0&#x56FA;&#x4EF6;&#x7F3A;&#x5C11;&#x8BE5;&#x679A;&#x4E3E;)</span>
+    kProcessing,            <span class="hljs-comment">///&lt; &#x5904;&#x7406;&#x4E2D;(SDK3.0&#x56FA;&#x4EF6;&#x7F3A;&#x5C11;&#x8BE5;&#x679A;&#x4E3E;)</span>
+    kScreenNodeIsNull,      <span class="hljs-comment">///&lt; &#x663E;&#x793A;&#x5C4F;&#x8282;&#x70B9;&#x4E3A;&#x7A7A;</span>
+    kNodeExist,             <span class="hljs-comment">///&lt; &#x8282;&#x70B9;&#x5DF2;&#x5B58;&#x5728;</span>
+    kNodeNotExist,          <span class="hljs-comment">///&lt; &#x8282;&#x70B9;&#x4E0D;&#x5B58;&#x5728;</span>
+    kPluginNotExist,        <span class="hljs-comment">///&lt; &#x63D2;&#x4EF6;&#x4E0D;&#x5B58;&#x5728;</span>
+    kCheckLicenseFailed,    <span class="hljs-comment">///&lt; &#x6821;&#x9A8C;license&#x5931;&#x8D25;</span>
+    kNotFoundWifiModule,    <span class="hljs-comment">///&lt; &#x672A;&#x627E;&#x5230;wifi&#x6A21;&#x5757;</span>
+    kTestWifiUnsuccessful,  <span class="hljs-comment">///&lt; &#x6D4B;&#x8BD5;wifi&#x6A21;&#x5757;&#x672A;</span>
+    kRunningError,          <span class="hljs-comment">///&lt; &#x8FD0;&#x884C;&#x9519;&#x8BEF;</span>
+    kUnsupportMethod,       <span class="hljs-comment">///&lt; &#x4E0D;&#x652F;&#x6301;&#x7684;&#x65B9;&#x6CD5;</span>
+    kInvalidGUID,           <span class="hljs-comment">///&lt; &#x975E;&#x6CD5;&#x7684;guid</span>
+    kFirmwareFormatError,   <span class="hljs-comment">///&lt; &#x56FA;&#x4EF6;&#x683C;&#x5F0F;&#x9519;&#x8BEF;</span>
+    kTagNotFound,           <span class="hljs-comment">///&lt; &#x6807;&#x7B7E;&#x4E0D;&#x5B58;&#x5728;</span>
+    kAttrNotFound,          <span class="hljs-comment">///&lt; &#x5C5E;&#x6027;&#x4E0D;&#x5B58;&#x5728;</span>
+    kCreateTagFailed,       <span class="hljs-comment">///&lt; &#x521B;&#x5EFA;&#x6807;&#x7B7E;&#x5931;&#x8D25;</span>
+    kUnsupportDeviceType,   <span class="hljs-comment">///&lt; &#x4E0D;&#x652F;&#x6301;&#x7684;&#x8BBE;&#x5907;&#x578B;&#x53F7;</span>
+    kPermissionDenied,      <span class="hljs-comment">///&lt; &#x6743;&#x9650;&#x4E0D;&#x8DB3;</span>
+    kPasswdTooSimple,       <span class="hljs-comment">///&lt; &#x5BC6;&#x7801;&#x592A;&#x7B80;&#x5355;</span>
+    kUsbNotInsert,          <span class="hljs-comment">///&lt; usb&#x672A;&#x63D2;&#x5165;</span>
+};
+</code></pre>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="基本类型定义.html" class="navigation navigation-prev " aria-label="Previous page: 基本类型定义">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="数据包命令值定义.html" class="navigation navigation-next " aria-label="Next page: 数据包命令值定义">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"错误码定义","level":"1.2.2","depth":2,"next":{"title":"数据包命令值定义","level":"1.2.3","depth":2,"path":"document/Protocol/数据包命令值定义.md","ref":"./document/Protocol/数据包命令值定义.md","articles":[]},"previous":{"title":"基本类型定义","level":"1.2.1","depth":2,"path":"document/Protocol/基本类型定义.md","ref":"./document/Protocol/基本类型定义.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","splitter"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"sharing":{"qq":false,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"twitter":false,"vk":false,"pocket":false,"google":false,"qzone":false},"splitter":{},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":6,"left":6,"top":6,"bottom":6},"fontSize":13,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"SDK3.0文档","language":"zh-hans","gitbook":"*","description":"SDK3.0文档","extension":null},"file":{"path":"document/Protocol/错误码定义.md","mtime":"2022-12-07T06:16:36.268Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-18T07:26:53.140Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <ipconfig netProtocol="TCP" port="10001" protocol="SDK2.0" ip="C16-D21-015BD"/>
+</config>
